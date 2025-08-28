@@ -1,0 +1,55 @@
+# This is a requirements file for the project "FlyMeThrough": Human-AI Collaborative 3D Indoor Mapping with Commodity Drones
+# It includes all the necessary packages and libraries required for the project
+
+# Basic utilities and scientific computing
+numpy==1.23.3
+scipy==1.9.3
+pandas==1.5.2
+
+# PyTorch for deep learning and computer vision
+torch==1.13.1
+torchvision==0.12.1
+
+# Computer vision and image processing
+opencv-python==4.7.0.0
+pillow==9.3.1
+
+# Data visualization
+matplotlib==3.6.0
+seaborn==0.11.2
+
+# Scientific and technical computing
+scikit-learn==1.0.2
+scikit-image==0.19.2
+
+# Natural language processing
+nltk==3.7
+spacy==3.3.0
+
+# Data manipulation and analysis
+networkx==2.6.3
+pygraphviz==1.8
+
+# Utilities
+tqdm==4.64.0
+
+# Specific packages for the project
+# Please note that some of these packages might have specific version requirements mentioned in the research paper
+# Make sure to refer to the paper for any specific instructions or constraints
+
+# Drone control and communication
+# e.g. package_name == version specified in the paper
+
+# SLAM and mapping libraries
+# e.g. orb_slam3 == refer to paper for version
+
+# Computer vision algorithms
+# e.g. opencv-contrib-python == refer to paper for specific version if mentioned
+
+# Note: The above package placeholders are just examples. You need to replace them with the actual packages and versions mentioned in the research paper.
+
+# For any additional packages required, follow the format below:
+# package_name == version_number
+
+# Example:
+# tensorflow == 2.9.1
